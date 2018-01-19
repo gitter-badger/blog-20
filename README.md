@@ -6,7 +6,7 @@
 
 * Gradl构建
 
-* Spring Boot
+* Spring Boot :fa-leaf:
 
 > #### :fa-bookmark:  前台
 
