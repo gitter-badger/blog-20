@@ -1,0 +1,13 @@
+ext {
+    springBootVersion = '1.5.9.RELEASE'
+}
+
+apply plugin: 'war'
+
+dependencies {
+    compile project (':blog-server')
+    //compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: springBootVersion
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: springBootVersion
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: springBootVersion
+
+}

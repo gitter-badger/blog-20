@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="blog-bean_main" target="1.8" />
+      <module name="blog-bean_test" target="1.8" />
+      <module name="blog-commons_main" target="1.8" />
+      <module name="blog-commons_test" target="1.8" />
+      <module name="blog-server_main" target="1.8" />
+      <module name="blog-server_test" target="1.8" />
+      <module name="blog-web_main" target="1.8" />
+      <module name="blog-web_test" target="1.8" />
+      <module name="blog_main" target="1.8" />
+      <module name="blog_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+ext {
+    springBootVersion = '1.5.9.RELEASE'
+}
+
+dependencies {
+    compile project(':blog-bean')
+    compile project(':blog-commons')
+}
