@@ -1,4 +1,4 @@
-package com.liang.peng.blog.main;
+package com.liang.peng.blog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author liangpeng
  */
 @SpringBootApplication
-public class Chapter1Application {
+public class SprintBootApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Chapter1Application.class, args);
+        SpringApplication.run(SprintBootApplication.class, args);
     }
 }

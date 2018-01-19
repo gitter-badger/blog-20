@@ -53,7 +53,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest(classes = MockServletContext.class)
 //@ContextConfiguration("classpath*:**web-config.xml")
 @WebAppConfiguration
-public class Chapter1ApplicationTests {
+public class ApplicationTests {
     private MockMvc mvc;
 
    /* @Autowired
