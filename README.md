@@ -1,9 +1,13 @@
-* Gradl构建
+###  :fa-book:  个人学习Demo
 
-> 后台技术
+---
+
+> #### :fa-bookmark: 后台技术
+
+* Gradl构建
 
 * Spring Boot
 
-> 前台
+> #### :fa-bookmark:  前台
 
 * Vue
