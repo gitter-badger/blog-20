@@ -1,11 +1,14 @@
 package com.liang.peng.blog.main;
 
 import com.liang.peng.blog.controller.UserController;
+import javafx.application.Application;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.mock.web.MockServletContext;
@@ -78,13 +81,13 @@ public class ApplicationTests {
      */
     @Test
     public void getHello() throws Exception {
-        Logger logger =  LoggerFactory.getLogger(this.getClass());
+        Logger logger = LoggerFactory.getLogger(this.getClass());
         logger.info("info");
         logger.debug("debug");
         logger.warn("warn");
         logger.error("error");
 
-        String data = mvc.perform(MockMvcRequestBuilders.get("/user/login/a/b").accept(MediaType.APPLICATION_JSON))
+        String data = mvc.perform(MockMvcRequestBuilders.get("/user/login/admin/admin").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andDo(MockMvcResultHandlers.print())
                 .andReturn().getResponse().getContentAsString();   //将相应的数据转换为字符串;

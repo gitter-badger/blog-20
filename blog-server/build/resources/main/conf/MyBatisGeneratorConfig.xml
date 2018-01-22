@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<!-- classPathEntry:数据库的JDBC驱动,换成你自己的驱动位置 -->
+	<classPathEntry location="WebContent/WEB-INF/lib/sqljdbc4.jar" />
+	<!-- flat阻止将text类型生产单独的类 -->
+	<context id="DB2Tables" targetRuntime="MyBatis3"
+		defaultModelType="flat">
+		<!-- 去除自动生成的注释 -->
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+		<jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+			connectionURL="jdbc:sqlserver://localhost:1433;DatabaseName=childbirth_max"
+			userId="sa" password="sasa">
+		</jdbcConnection>
+		<javaTypeResolver>
+			<!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer 否则把JDBC DECIMAL 和 NUMERIC 
+				类型解析为java.math.BigDecimal -->
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+		<!-- targetProject:自动生成代码的位置 -->  <!-- 实体 -->
+		<javaModelGenerator targetPackage="com.apon.childbirth.beans.bean"
+			targetProject="src">
+			<!-- enableSubPackages:是否让schema作为包的后缀 -->
+			<property name="enableSubPackages" value="true" />
+			<!-- 从数据库返回的值被清理前后的空格 -->
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+		<!-- mapper.xml -->
+		<sqlMapGenerator
+			targetPackage="com.apon.childbirth.mapper.generatormapper.mapperxml"
+			targetProject="src">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+		<!-- mapper.java -->
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.apon.childbirth.mapper.generatormapper"
+			targetProject="src">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+		<!-- tableName:用于自动生成代码的数据库表；domainObjectName:对应于数据库表的javaBean类名 -->
+		<table tableName="t_sys_user" domainObjectName="SysUser">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_task" domainObjectName="Task">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_pump_data" domainObjectName="PumpData">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_pump" domainObjectName="Pump">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_patient_real" domainObjectName="PatientReal">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_patient" domainObjectName="Patient">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_histest" domainObjectName="Histest">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_fetus_event" domainObjectName="FetusEvent">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+
+		<table tableName="t_fetus_data" domainObjectName="FetusData">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_fetus_alarm" domainObjectName="FetusAlarm">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_config" domainObjectName="Config">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_audit" domainObjectName="Audit">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="t_analgasiame" domainObjectName="Analgasiame">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="a_estimate" domainObjectName="Estimate">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="a_analgesiaform" domainObjectName="Analgesiaform"/>
+		<table tableName="p_dictionaries" domainObjectName="Dictionaries">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="p_mark" domainObjectName="Mark">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="patient_register" domainObjectName="PatientRegister">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="p_grant" domainObjectName="Grant"/>
+
+		<table tableName="p_menu" domainObjectName="Menu">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="p_infusions" domainObjectName="Infusions">
+			<property name="useActualColumnNames" value="true" />
+		</table>
+		<table tableName="p_manual_data" domainObjectName="ManualData"/>
+		<table tableName="big_screen" domainObjectName="BigScreen"/>
+		<!-- <table schema="test" tableName="roles" domainObjectName="Roles" enableCountByExample="false" 
+			enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" 
+			selectByExampleQueryId="false"> <property name="useActualColumnNames" value="false"/> 
+			</table> -->
+
+	</context>
+</generatorConfiguration> 
