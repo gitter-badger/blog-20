@@ -63,6 +63,4 @@ module.exports = {
     , copyMaxFile: function (resource, target) {
         fs.createReadStream(resource).pipe(fs.createWriteStream(target));
     }
-
-
 }
