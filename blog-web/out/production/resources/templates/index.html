@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
     <title>Title</title>
 </head>
 <body>
 <h1>template index</h1>
+
+<form action="/test1/index">
+    <input name="txt"/>
+    <input type="submit" value="提交"/>
+</form>
+
+<p th:text="${txt}" ></p>
+<p th:text="${txt2}" ></p>
+<p th:text="${txt3}" ></p>
+<p th:text="${txt4}" ></p>
+
 </body>
 </html>

@@ -1,0 +1,12 @@
+.idea
+blog-bean/build
+blog-bean/out
+blog-commons/build
+blog-commons/out
+blog-server/build
+blog-server/out
+blog-web/build
+blog-web/out
+blog-web/src/main/resources/templates/node_modules
+
+

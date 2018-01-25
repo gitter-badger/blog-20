@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pengliang",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.28.9",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {}
+}
