@@ -2,260 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8415b514-a8a3-48b6-91a9-29911aecfb42" name="Default" comment="整合Mybatis">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/fun1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/函数调用.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/node的使用.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/http.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpClient.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpServer1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpServer2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/teacher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/user2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/模块.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/路由.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-bean/build/libs/blog-bean-'1.0-SNAPSHOT'.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-bean/out/production/classes/com/liang/peng/blog/beans/BlogUserBeans.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-commons/build/libs/blog-commons-'1.0-SNAPSHOT'.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-server/build/libs/blog-server-'1.0-SNAPSHOT'.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/build/libs/blog-web-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/vue.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/vue.esm.browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/vue.esm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/vue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/vue.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/vue.runtime.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/vue.runtime.esm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/vue.runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/dist/vue.runtime.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/codegen/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/codegen/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/create-compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/directives/bind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/directives/on.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/error-detector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/optimizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/parser/entity-decoder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/parser/filter-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/parser/html-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/parser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/parser/text-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/compiler/to-function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/components/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/components/keep-alive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/global-api/assets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/global-api/extend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/global-api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/global-api/mixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/global-api/use.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/inject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/lifecycle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/proxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render-helpers/bind-object-listeners.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render-helpers/bind-object-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render-helpers/check-keycodes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render-helpers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render-helpers/render-list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render-helpers/render-slot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render-helpers/render-static.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render-helpers/resolve-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render-helpers/resolve-slots.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/render.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/instance/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/observer/array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/observer/dep.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/observer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/observer/scheduler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/observer/traverse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/observer/watcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/util/debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/util/env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/util/error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/util/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/util/lang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/util/next-tick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/util/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/util/perf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/util/props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/create-component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/create-element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/create-functional-component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/helpers/extract-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/helpers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/helpers/is-async-placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/helpers/merge-hook.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/helpers/normalize-children.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/helpers/update-listeners.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/modules/directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/modules/ref.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/patch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/core/vdom/vnode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/directives/html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/directives/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/modules/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/compiler/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/entry-compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/entry-runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/entry-server-basic-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/entry-server-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/class-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/components/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/components/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/directives/show.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/modules/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/modules/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/node-ops.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/patch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/runtime/transition-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/directives/show.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/modules/attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/modules/dom-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/server/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/util/attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/util/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/util/compat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/util/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/util/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/web/util/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/directives/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/append.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component-root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-bind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-for.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-if.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-on.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/compiler/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/entry-compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/entry-framework.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/entry-runtime-factory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/components/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/components/richtext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/components/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/directives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/modules/class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/modules/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/modules/style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/modules/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/node-ops.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/patch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/recycle-list/render-component-template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/recycle-list/virtual-component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/runtime/text-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/util/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/platforms/weex/util/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/bundle-renderer/source-map-support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/create-basic-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/create-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/optimizing-compiler/codegen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/optimizing-compiler/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/optimizing-compiler/modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/optimizing-compiler/optimizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/render-context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/render-stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/render.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/template-renderer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/template-renderer/parse-template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/template-renderer/template-stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/webpack-plugin/client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/webpack-plugin/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/webpack-plugin/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/server/write.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/sfc/parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/shared/constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/src/shared/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/types/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/types/options.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/types/plugin.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/types/vnode.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/node_modules/vue/types/vue.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/src/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/blog-'1.0-SNAPSHOT'.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/annotation-processors.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/file.utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/read.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/write.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-bean/build/libs/blog-bean-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/blog-bean/build/libs/blog-bean-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-commons/build/libs/blog-commons-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/blog-commons/build/libs/blog-commons-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-server/build/libs/blog-server-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/blog-server/build/libs/blog-server-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/build/classes/main/com/liang/peng/blog/controller/UserController.class" afterPath="$PROJECT_DIR$/blog-web/build/classes/main/com/liang/peng/blog/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/out/production/classes/com/liang/peng/blog/controller/Test1Controller.class" afterPath="$PROJECT_DIR$/blog-web/out/production/classes/com/liang/peng/blog/controller/Test1Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/blog-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/blog-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/build/resources/main/config/application.properties" afterPath="$PROJECT_DIR$/blog-web/build/resources/main/config/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/out/production/resources/templates/index.html" afterPath="$PROJECT_DIR$/blog-web/out/production/resources/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/java/com/liang/peng/blog/controller/Test1Controller.java" afterPath="$PROJECT_DIR$/blog-web/src/main/java/com/liang/peng/blog/controller/Test1Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -344,41 +98,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/server.js">
+      <file leaf-file-name="read.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/read.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html">
+      <file leaf-file-name="write.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/write.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="429">
+              <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="file.utils.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/file.utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="route.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/route.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -1342,11 +1086,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class" />
-        <option value="$PROJECT_DIR$/blog-web/src/test/java/com/liang/peng/blog/main/ApplicationTests.java" />
-        <option value="$PROJECT_DIR$/blog-web/src/test/java/com/liang/peng/blog/main/ApplicationPropertiesTests.java" />
-        <option value="$PROJECT_DIR$/blog-server/src/main/java/com/liang/peng/blog/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/blog-server/build.gradle" />
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/config/application-dev.properties" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/config/application-test.properties" />
@@ -1393,6 +1132,11 @@
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/路由.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/gs" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/test.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/write.test.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/read.test.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/file.utils.js" />
       </list>
     </option>
   </component>
@@ -1446,6 +1190,74 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1728,7 +1540,7 @@
       <workItem from="1516597224305" duration="15155000" />
       <workItem from="1516779639831" duration="5007000" />
       <workItem from="1516843533911" duration="1727000" />
-      <workItem from="1516847010773" duration="13365000" />
+      <workItem from="1516847010773" duration="18596000" />
     </task>
     <servers />
   </component>
@@ -1765,7 +1577,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70793000" />
+    <option name="totallyTimeSpent" value="76024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1799,7 +1611,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5005587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81340784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55977654" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1865,78 +1677,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-spring-web/2.7.0/22965a44da8e4229a1adec51aa1976a4c1107e69/springfox-spring-web-2.7.0-sources.jar!/springfox/documentation/spring/web/plugins/Docket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="122" column="31" lean-forward="false" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-core/2.7.0/b5ca116ad7ffbac90027f78ccd4ce14aace5f790/springfox-core-2.7.0-sources.jar!/springfox/documentation/builders/ApiInfoBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="106" column="36" lean-forward="false" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.springfox/springfox-core/2.7.0/b5ca116ad7ffbac90027f78ccd4ce14aace5f790/springfox-core-2.7.0-sources.jar!/springfox/documentation/service/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1691">
-          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/liang/peng/blog/SprintBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiImplicitParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4086">
-          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3371">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/test/java/com/liang/peng/blog/main/ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="55" column="44" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.swagger/swagger-annotations/1.5.13/eb97f818baed68433da77483582a3af0e9907d44/swagger-annotations-1.5.13-sources.jar!/io/swagger/annotations/ApiImplicitParams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -2202,14 +1942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/路由.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -2232,10 +1964,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/gs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="33">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/gs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/m1/newGs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -2243,7 +1991,79 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/m1/newGs2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/sync.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/asy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/asyn.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/write.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/read.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/file.utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
           <folding />
         </state>
       </provider>
