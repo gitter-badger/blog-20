@@ -9,6 +9,7 @@ http.createServer(function (request, response) {
         var pathName = url.parse(request.url).pathname;
         var arg = querystring.parse(url.parse(request.url).query);
         console.log("请求参数",arg);
+        console.log("请求参数2",url.parse(request.url,true).query);
         try{
             route[pathName](request,response);
         }catch (e){
