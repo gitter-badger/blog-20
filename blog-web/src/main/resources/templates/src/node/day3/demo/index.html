@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>node增删该查</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script
+            src="./../../../lib/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+</head>
+<body lang="en">
+<div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8" style=" border: 1px solid #DDDDDD;margin:20px 0px 20px 0px; ">
+        <div style="width: 50%;margin:10px auto;">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="userName" class="col-sm-2  control-label">userName</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="userName" placeholder="userName">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-sm-2  control-label">password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="password" placeholder="password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="iphone" class="col-sm-2  control-label">iphone</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="iphone" placeholder="iphone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <hr style="border-top:1px solid #DDDDDD">
+
+        <div style="width: 50%;margin:20px auto;">
+            <table class="table table-hover  table-bordered">
+
+                <thead>
+                <tr>
+                    <td>编号</td>
+                    <td>用户名</td>
+                    <td>密码</td>
+                    <td>电话</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody id="userBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-lg-2"></div>
+</div>
+</body>
+<script>
+
+    $('button[type=submit]').click(function () {
+        var $this = $(this);
+        var type = $this.attr('opt-type');
+        var url = 'http://localhost:8000/addUser';
+        if (type === 'update') {
+            url = 'http://localhost:8000/updateUser';
+        }
+        $.post(url,
+            {
+                userName: $('#userName').val(),
+                password: $('#password').val(),
+                iphone: $('#iphone').val(),
+                id: $this.attr('up-id')
+            },
+            function (r) {
+                if (r.status == 200) {
+                    $this.removeAttr('opt-type');
+                    $this.removeAttr('up-id');
+                    $('form')[0].reset();
+                    getUserData();
+                }
+                alert(r.msg);
+            });
+        return false;
+    })
+
+    getUserData();
+
+    function updateUser(th, id) {
+        var $this = $(th);
+        var $tr = $this.parent().parent();
+        $('#userName').val($tr.find('.userName').text());
+        $('#password').val($tr.find('.pwd').text());
+        $('#iphone').val($tr.find('.iphone').text());
+        $('button[type=submit]').attr('opt-type', 'update');
+        $('button[type=submit]').attr('up-id', id);
+    }
+
+    function delUser(id) {
+        $.post('http://localhost:8000/delUser', {id: id}, function (r) {
+            if (r.status == 200) {
+                getUserData();
+            }
+            alert(r.msg);
+        })
+    }
+
+    function getUserData() {
+        $.get('http://localhost:8000/queryUser', function (r) {
+            //console.log(r);
+            var rDatas = r.data;
+            if (rDatas && rDatas.length > 0) {
+                var _html = '';
+                for (var i = 0; i < rDatas.length; i++) {
+                    var data = rDatas[i];
+                    _html += '<tr><td class="id">' + data['id'] + '</td>' +
+                        '<td class="userName">' + data['user_name'] + '</td>' +
+                        '<td class="pwd">' + data['pwd'] + '</td>' +
+                        '<td class="iphone">' + data['iphone'] + '</td>' +
+                        '<td>' +
+                        '<button type="button" onclick="updateUser(this,' + data['id'] + ')" class="btn btn-link">修改</button>' +
+                        '<button type="button" onclick="delUser(' + data['id'] + ')" class="btn btn-link">删除</button>' +
+                        '</td></tr>';
+                }
+                $('#userBody').html(_html);
+            }
+        })
+    }
+</script>
+</html>

@@ -9,9 +9,12 @@
   "author": "pengliang",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.0.0",
     "css-loader": "^0.28.9",
     "mysql": "^2.15.0",
     "vue": "^2.5.13"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "async": "^2.6.0"
+  }
 }

@@ -22,7 +22,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class Swagger2 {
-
+    public static void main(String[] args){
+        int a = 60;
+        int b = 13;
+        System.out.println(a&b);
+    }
     /**
      * 通过createRestApi函数创建Docket的Bean之后，
      * apiInfo()用来创建该Api的基本信息（这些基本信息会展现在文档页面中）。
