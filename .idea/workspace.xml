@@ -2,19 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8415b514-a8a3-48b6-91a9-29911aecfb42" name="Default" comment="整合Mybatis">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/jquery-3.3.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/async异步流程控制.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/test.async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/sql.utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/out/production/classes/com/liang/peng/blog/Swagger2.class" afterPath="$PROJECT_DIR$/blog-web/out/production/classes/com/liang/peng/blog/Swagger2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/App.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/bootstrap/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/elementUi/table.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/jquery-3.3.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/out/production/resources/templates/index.html" afterPath="$PROJECT_DIR$/blog-web/out/production/resources/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/java/com/liang/peng/blog/Swagger2.java" afterPath="$PROJECT_DIR$/blog-web/src/main/java/com/liang/peng/blog/Swagger2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/package-lock.json" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/asyn.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/asyn.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/file.utils.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/file.utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/gs.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/gs.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/m1/newGs.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/m1/newGs.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/m1/newGs2.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/m1/newGs2.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/read.test.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/read.test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/sync.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/sync.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/write.test.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/write.test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/fun1.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fun/fun1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/test.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fun/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/函数调用.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fun/函数调用.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/hello.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/hello/hello.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/node的使用.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/hello/node的使用.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/http.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/http.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpClient.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/httpClient.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpServer1.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/httpServer1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpServer2.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/httpServer2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/teacher.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/teacher.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/test.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/user.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/user.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/user2.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/user2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/模块.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/模块.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/route.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/route/route.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/server.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/route/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/路由.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/route/路由.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/index.html" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/querystring.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/querystring.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/server.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/testscript.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/testscript.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/url.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/url.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/async异步流程控制.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/async/async异步流程控制.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/test.async.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/async/test.async.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/conMySQL.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/conMySQL.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/mySQLPool.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/mySQLPool.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/testMysqlPool.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/testMysqlPool.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/连接数据库.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/连接数据库.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/blog_test.sql" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/blog_test.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.html" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/server.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/sql.utils.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/sql.utils.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -108,36 +146,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sql.utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/sql.utils.js">
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="66">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.html">
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/bootstrap/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2580">
-              <caret line="89" column="41" lean-forward="false" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+            <state relative-caret-position="198">
+              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="96" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/server.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="30" />
+            <state relative-caret-position="231">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog-home.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,6 +217,7 @@
       <list>
         <option value="Class" />
         <option value="HTML File" />
+        <option value="FxmlFile" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -158,7 +226,15 @@
     <findStrings>
       <find>返回结果</find>
       <find>SpringApplicationConfiguration</find>
+      <find>bs-example-navbar-collapse-1</find>
+      <find>navbar-right</find>
+      <find>plugins</find>
+      <find>matched</find>
+      <find>blog-left-menu</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1101,18 +1177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/httpClient.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/exprot.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/export.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/commons.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun1.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/user2.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/teacher.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/user.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/test.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/test.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/函数调用.md" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/test.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/node的使用.md" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/http.md" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/route.js" />
@@ -1125,7 +1189,6 @@
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/file.utils.js" />
         <option value="$PROJECT_DIR$/gradlew.bat" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/server.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/index.html" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/url.js" />
@@ -1146,12 +1209,25 @@
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/sql.pool.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/sql.utils.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.html" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/test.async.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/async异步流程控制.md" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/test.async.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/server.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/hello.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/elemtui.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/elementUi/table.html" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/tt.html" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/bootstrap/nav.html" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/webpack.config.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.manager.router.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog.home.vue" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/main.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/App.vue" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue" />
       </list>
     </option>
   </component>
@@ -1199,7 +1275,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1261,7 +1338,7 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -1272,80 +1349,14 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
-              <item name="param" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
-              <item name="async" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1355,7 +1366,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -1365,24 +1376,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\css" />
+      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\study_test\bootstrap" />
+      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day3\async" />
+      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day1\http" />
+      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day1\hello" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\lib" />
       <recent name="D:\study\blog\blog-web\src\main\resources\templates" />
       <recent name="D:\study\blog\blog-web\src\main\resources\template" />
       <recent name="D:\study\blog\blog-web\src\main\resources\config" />
       <recent name="D:\study\blog\blog-web\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day3\async" />
-      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day1\http" />
-      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day1\hello" />
-      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day1\module" />
-      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day1\fun" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1627,7 +1639,11 @@
       <workItem from="1516935016467" duration="13032000" />
       <workItem from="1517196266703" duration="865000" />
       <workItem from="1517453273183" duration="513000" />
-      <workItem from="1517454949531" duration="17290000" />
+      <workItem from="1517454949531" duration="17436000" />
+      <workItem from="1517534258755" duration="62000" />
+      <workItem from="1517535692414" duration="262000" />
+      <workItem from="1517536086074" duration="2862000" />
+      <workItem from="1517538983436" duration="21421000" />
     </task>
     <servers />
   </component>
@@ -1664,7 +1680,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111734000" />
+    <option name="totallyTimeSpent" value="136487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1677,12 +1693,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60223466" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1690,18 +1706,18 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46927375" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5005587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21675977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29637527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46368715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30916846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29744136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1709,8 +1725,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1759,193 +1775,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/函数调用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="631">
-            <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/node的使用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpServer2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/http.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="271">
-            <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/路由.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/gs" />
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/gs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/m1/newGs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/m1/newGs2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/sync.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/asy.txt" />
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/asyn.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/file.utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/write.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/read.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/url.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-863">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/模块.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="99">
-            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/querystring.js">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/querystring.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -1957,24 +1792,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/testscript.js">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/testscript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/连接数据库.md">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/连接数据库.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="777">
             <caret line="145" column="3" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="145" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1988,20 +1820,247 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/jquery.v1.4.1.js" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/testMysqlPool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/conMySQL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/httpClient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/httpServer1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/blog_test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2937">
+          <caret line="89" column="41" lean-forward="false" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async.js" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/async/async异步流程控制.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.js" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/hello/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/elemtui.js" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/async/test.async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/mySQLPool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/sql.utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/elementUi/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/dist/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/images/code.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/dist/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="19" column="132812" lean-forward="true" selection-start-line="19" selection-start-column="132812" selection-end-line="19" selection-end-column="132812" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/npm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/node_modules/element-ui/types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/node_modules/element-ui/lib/theme-chalk/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!block;n#alphanum-sort#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ansi-regex#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ansi-styles#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#argparse#0;n#!!block;n#dependencies#0;n#!!top" expanded="false" />
+            <element signature="e#159982#160121#2" expanded="false" />
+            <element signature="e#163510#163649#2" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/node_modules/bootstrap/dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/node_modules/bootstrap/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4554">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/node_modules/bootstrap/dist/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2011,7 +2070,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.js">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/node_modules/bootstrap/dist/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2019,146 +2078,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/jquery.v1.4.1.js">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/node_modules/jquery/dist/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="140" column="219" lean-forward="false" selection-start-line="140" selection-start-column="219" selection-end-line="140" selection-end-column="219" />
+        <state relative-caret-position="33">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/bootstrap/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="96" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="e#229#868#0" expanded="false" />
+            <element signature="e#881#988#0" expanded="false" />
+            <element signature="e#1003#1074#0" expanded="false" />
+            <element signature="e#1091#1113#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="231">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/mySQLPool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/testMysqlPool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/conMySQL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpClient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpServer1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/blog_test.sql">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/sql.utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="89" column="41" lean-forward="false" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="66">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async.js">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/async异步流程控制.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/test.async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="30" />
+        <state relative-caret-position="550">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2169,7 +2157,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Gradle : 'com.liang.peng.blog' : blog-web-'1.0-SNAPSHOT'.war</last-edited>
+          <last-edited>Gradle : com.liang.peng.blog : blog-web-1.0-SNAPSHOT.war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

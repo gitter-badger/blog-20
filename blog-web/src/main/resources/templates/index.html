@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <title>Title</title>
+  <meta charset="utf-8">
+  <title>blog</title>
 </head>
 <body>
-<h1>template index</h1>
-
-<form action="/test1/index">
-    <input name="txt"/>
-    <input type="submit" value="提交"/>
-</form>
-<p th:text="${txt}" ></p>
-<p th:text="${txt2}" ></p>
-<p th:text="${txt3}" ></p>
-<p th:text="${txt4}" ></p>
-
+<div id="blog-body"></div>
+<!--<script src="node_modules/jquery/dist/jquery.min.js"></script>-->
+<script src="/dist/build.js"></script>
 </body>
+
 </html>

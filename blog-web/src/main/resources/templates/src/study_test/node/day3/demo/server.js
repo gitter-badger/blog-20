@@ -98,7 +98,6 @@ http.createServer(function (request, response) {
 
         param = url.parse(request.url).query || '';
 
-
         request.on('data', function (chunk) {
             param += chunk;
         })
