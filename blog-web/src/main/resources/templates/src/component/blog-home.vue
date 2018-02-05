@@ -1,5 +1,4 @@
 <style lang="css">
-
   @media screen and (min-width: 1200px) {
     #blog-home .blog-content {
       padding-left: 268px;
@@ -9,7 +8,6 @@
     #blog-home > #blog-nav > .nave-body > .blog-menu-button {
       display: none;
     }
-
   }
 
   @media screen  and (max-width: 1200px) {
@@ -34,30 +32,31 @@
     /*border: 1px solid white;*/
     position: fixed;
     width: 100%;
-    height: 30px;
-    top: 12px;
+    height: 40px;
+    top: 15px;
   }
 
   #blog-home > #blog-nav > .nave-body > .logo {
     margin-left: 10px;
     width: 100px;
-    height: 30px;
+    height: 40px;
     color: #fff;
     cursor: pointer;
   }
 
   #blog-home > #blog-nav > .nave-body > .logo > .sys-title {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     font-size: 16px;
-    top: 17.5px;
+    top: 12px;
     left: 115px;
   }
 
   #blog-home > #blog-nav {
     background: #393D49;
+    box-shadow: 0 1px 4px rgba(0,0,0,.3);
     width: 100%;
-    height: 50px;
+    height: 70px;
     position: fixed;
     top: 0px;
     z-index: 11;
@@ -67,8 +66,9 @@
     width: 35px;
     padding: 5px;
     cursor: pointer;
-    margin-left: 10px;
+    margin: 5px 0px 0px 10px;
     border-radius: 5px;
+
   }
 
   #blog-home > #blog-nav > .nave-body > .blog-menu-button:hover {
@@ -91,17 +91,17 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    height: 30px;
+    height: 40px;
     width: 200px;
   }
 
   #blog-home > #blog-nav > .nave-body > .blog-nave-right > div {
-    width: 30px;
-    padding: 3px;
+    width: 40px;
+    padding: 7px;
     float: right;
     margin-right: 20px;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 5px;
     text-align: center;
   }
 
@@ -110,22 +110,22 @@
   }
 
   #blog-home .blog-left-menu {
-    background-color: rgb(84, 92, 100);
+   /* background-color: rgb(84, 92, 100);*/
     width: 268px;
     position: fixed;
-    top: 50px;
+    top: 70px;
     transition: all;
     z-index: 9;
     overflow-y: auto;
-    height: calc(100% - 70px);
+    height: calc(100% - 90px);
     box-shadow: 1px 0 4px rgba(0, 0, 0, .3);
   }
 
   #blog-home .blog-content {
-    background: salmon;
+  /*  background: salmon;*/
     overflow: auto;
     position: absolute;
-    top:50px;
+    top: 70px;
     width: 100%;
     z-index: 5;
   }
@@ -138,6 +138,7 @@
     bottom: 0px;
     width: 100%;
     z-index: 10;
+    font-size: 12px;
   }
 </style>
 <template>
@@ -155,9 +156,9 @@
         </div>
 
         <div class="blog-nave-right">
-          <div><img width="18" src="./images/blog-top-more.png" alt="更多"></div>
-          <div><img width="18" src="./images/blog-top-config.png" alt="更多"></div>
-          <div><img width="18" src="./images/blog-top-sreach.png" alt="更多"></div>
+          <div><img width="24" src="./images/blog-top-more.png" alt="更多"></div>
+          <div><img width="24" src="./images/blog-top-config.png" alt="更多"></div>
+          <div><img width="24" src="./images/blog-top-sreach.png" alt="更多"></div>
         </div>
       </div>
     </div>
@@ -167,83 +168,17 @@
     </div>
 
     <div class="blog-content">
-      <div>大家好</div>
-      <div>我是</div>
-      <div>渣渣灰</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div> <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div> <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
-      <div>22111111</div>
+      <blog-content></blog-content>
     </div>
 
-    <div class="blog-bottom">v1.0 </div>
+    <div class="blog-bottom">© PENGLIANG-BLOGWEB V1.0.0 </div>
   </div>
 </template>
 
 
 <script>
   import blogLeftMenu from './blog-left-menu.vue'
-
+  import blogContent from './blog-content.vue'
 
   export default {
     name: 'blog-home',
@@ -286,7 +221,8 @@
       }
     }
     , components: {
-      blogLeftMenu
+      blogLeftMenu,
+      blogContent
     }
   }
 </script>
