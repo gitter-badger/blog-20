@@ -2,12 +2,18 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
+  //入口文件
   entry: './src/main.js',
+  //出口
   output: {
+    //输出目录
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    //图片等引用会根据当前路劲打包修改
+    publicPath: 'dist/',
+    //输出文件
     filename: 'build.js'
   },
+  //加载解析模块
   module: {
     rules: [
       {
@@ -17,6 +23,7 @@ module.exports = {
               'css-loader'
             ],*/
         loader: 'style-loader!css-loader'
+
       }, {
         test: /\.vue$/,
         loader: 'vue-loader',
@@ -31,12 +38,33 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
+        test: /\.(png|jpe?g|gif|eot|svg|ttf|woff|woff2)(\?\S*)?$/,
         loader: 'file-loader',
+        options: {
+          name: 'images/[name].[ext]?[hash]'
+        }
+      }
+      /*,
+      {
+        test: /\.html$/,
+        use: {
+          loader: 'html-loader'
+        },
         options: {
           name: '[name].[ext]?[hash]'
         }
+      },
+       {
+        test: /\.(png|jpe?g|gif|eot|svg|ttf|woff|woff2)(\?\S*)?$/,
+        use: {
+          loader: 'url-loader'
+        },
+        options: {
+          name: '[name].[ext]?[hash]',
+          publicPath:'./'
+        }
       }
+      */
     ]
   },
   resolve: {

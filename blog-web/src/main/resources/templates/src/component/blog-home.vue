@@ -1,35 +1,15 @@
 <style lang="css">
 
-  #blog-home nav.blog-nav {
-    margin: 0px;
-    padding: 0px;
-  }
-
-  #blog-home .navbar-inverse .navbar-nav > li > a {
-    color: #9d9d9d;
-  }
-
-  #blog-home .blog-left-menu {
-    background: skyblue;
-    width: 268px;
-    position: fixed;
-    top: 51px;
-    transition: all;
-    z-index: 10;
-    overflow-y: auto;
-    height: calc(100% - 70px);
-    box-shadow: 1px 0 4px rgba(0, 0, 0, .3);
-  }
-
-  #blog-home .blog-content {
-    background: salmon;
-
-  }
-
   @media screen and (min-width: 1200px) {
     #blog-home .blog-content {
       padding-left: 268px;
+      display: block;
     }
+
+    #blog-home > #blog-nav > .nave-body > .blog-menu-button {
+      display: none;
+    }
+
   }
 
   @media screen  and (max-width: 1200px) {
@@ -40,40 +20,273 @@
     #blog-home .blog-left-menu {
       display: none;
     }
+
+    #blog-home > #blog-nav > .nave-body > .blog-menu-button {
+      display: block;
+    }
+
+    #blog-home > #blog-nav > .nave-body > .logo {
+      display: none;
+    }
   }
 
+  #blog-home > #blog-nav > .nave-body {
+    /*border: 1px solid white;*/
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    top: 12px;
+  }
 
+  #blog-home > #blog-nav > .nave-body > .logo {
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #blog-home > #blog-nav > .nave-body > .logo > .sys-title {
+    display: inline-block;
+    position: fixed;
+    font-size: 16px;
+    top: 17.5px;
+    left: 115px;
+  }
+
+  #blog-home > #blog-nav {
+    background: #393D49;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+  }
+
+  #blog-home > #blog-nav > .nave-body > .blog-menu-button {
+    width: 35px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  #blog-home > #blog-nav > .nave-body > .blog-menu-button:hover {
+    background-color: rgba(255, 255, 255, .22);
+  }
+
+  #blog-home > #blog-nav > .nave-body > .blog-menu-back {
+    height: 30px;
+    background: url("./images/blog-top-return.png");
+  }
+
+  #blog-home > #blog-nav > .nave-body > .blog-menu-button > div.ic-bar {
+    border: 1px solid white;
+    margin: 3px 0px 2px 2px;
+    border-radius: 5px;
+    width: 20px;
+  }
+
+  #blog-home > #blog-nav > .nave-body > .blog-nave-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 30px;
+    width: 200px;
+  }
+
+  #blog-home > #blog-nav > .nave-body > .blog-nave-right > div {
+    width: 30px;
+    padding: 3px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    text-align: center;
+  }
+
+  #blog-home > #blog-nav > .nave-body > .blog-nave-right > div:hover {
+    background-color: rgba(255, 255, 255, .22);
+  }
+
+  #blog-home .blog-left-menu {
+    background-color: rgb(84, 92, 100);
+    width: 268px;
+    position: fixed;
+    top: 50px;
+    transition: all;
+    z-index: 9;
+    overflow-y: auto;
+    height: calc(100% - 70px);
+    box-shadow: 1px 0 4px rgba(0, 0, 0, .3);
+  }
+
+  #blog-home .blog-content {
+    background: salmon;
+    overflow: auto;
+    position: absolute;
+    top:50px;
+    width: 100%;
+    z-index: 5;
+  }
+
+  #blog-home .blog-bottom {
+    background-color: #DDDDDD;
+    padding: 0px 10px 0px 10px;
+    line-height: 25px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 10;
+  }
 </style>
 <template>
   <div id="blog-home">
-    <nav class="navbar navbar-inverse navbar-static-top blog-nav">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed blog-top-menu">
-            <span class="sr-only">切换菜单</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">BLOG</a>
+    <div id="blog-nav">
+      <div class="nave-body">
+        <div class="logo">
+          <img src="./images/blog-def-logo.png" alt="blog"/>
+          <span class="sys-title">信息管理系统</span>
+        </div>
+        <div @click="switchMenu()" class="blog-menu-button">
+          <div class="ic-bar"></div>
+          <div class="ic-bar"></div>
+          <div class="ic-bar"></div>
         </div>
 
-      </div><!-- /.container-fluid -->
-    </nav>
-    <div class="blog-left-menu">1</div>
+        <div class="blog-nave-right">
+          <div><img width="18" src="./images/blog-top-more.png" alt="更多"></div>
+          <div><img width="18" src="./images/blog-top-config.png" alt="更多"></div>
+          <div><img width="18" src="./images/blog-top-sreach.png" alt="更多"></div>
+        </div>
+      </div>
+    </div>
 
-    <div class="blog-content">2</div>
+    <div class="blog-left-menu">
+      <blog-left-menu></blog-left-menu>
+    </div>
+
+    <div class="blog-content">
+      <div>大家好</div>
+      <div>我是</div>
+      <div>渣渣灰</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div> <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div> <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+      <div>22111111</div>
+    </div>
+
+    <div class="blog-bottom">v1.0 </div>
   </div>
 </template>
 
 
 <script>
+  import blogLeftMenu from './blog-left-menu.vue'
+
+
   export default {
     name: 'blog-home',
     data: function () {
-      return {}
+      return {
+        menu: {
+          isClick: false
+        }
+      }
+    },
+    methods: {
+      switchMenu: function () {
+        var menu = this.menu;
+        if (menu.isClick === true) {
+          $('#blog-home>.blog-left-menu').hide();
+          $('#blog-home > #blog-nav > .nave-body > .blog-menu-button').removeClass("blog-menu-back").find('.ic-bar').show();
+          menu.isClick = false;
+        } else {
+          $('#blog-home>.blog-left-menu').show();
+          $('#blog-home > #blog-nav > .nave-body > .blog-menu-button').addClass("blog-menu-back").find('.ic-bar').hide();
+          menu.isClick = true;
+        }
+      }
+    }
+    , created: function () {
+      var _this = this;
+      window.onresize = function () {
+        var menu = _this.menu;
+        var browserWidth = $(window).width() || $(document.body).width() || document.body.clientWidth;
+        if (browserWidth >= 1200) {
+          $('#blog-home>.blog-left-menu').show();
+          return;
+        }
+        if (browserWidth < 1200) {
+          if (menu.isClick === false) {
+            $('#blog-home>.blog-left-menu').hide();
+          }
+          return;
+        }
+      }
+    }
+    , components: {
+      blogLeftMenu
     }
   }
-
-
 </script>

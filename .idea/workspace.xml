@@ -2,57 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8415b514-a8a3-48b6-91a9-29911aecfb42" name="Default" comment="整合Mybatis">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/App.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/bootstrap/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/elementUi/table.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/jquery-3.3.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/images/blog-def-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/images/blog-top-config.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/images/blog-top-more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/images/blog-top-return.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/images/blog-top-sreach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-left-menu.vue" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/images/code.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/package-lock.json" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/asyn.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/asyn.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/file.utils.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/file.utils.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/gs.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/gs.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/m1/newGs.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/m1/newGs.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/m1/newGs2.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/m1/newGs2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/read.test.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/read.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/sync.txt" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/sync.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/write.test.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fs/write.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/fun1.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fun/fun1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/test.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fun/test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fun/函数调用.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/fun/函数调用.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/hello.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/hello/hello.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/node的使用.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/hello/node的使用.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/http.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/http.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpClient.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/httpClient.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpServer1.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/httpServer1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/httpServer2.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/http/httpServer2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/teacher.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/teacher.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/test.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/user.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/user.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/user2.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/user2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/module/模块.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/module/模块.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/route.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/route/route.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/server.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/route/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/路由.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day1/route/路由.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/index.html" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/querystring.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/querystring.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/server.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/testscript.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/testscript.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/url.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/url.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/async异步流程控制.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/async/async异步流程控制.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/async/test.async.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/async/test.async.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/conMySQL.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/conMySQL.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/mySQLPool.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/mySQLPool.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/testMysqlPool.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/testMysqlPool.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/db/连接数据库.md" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/连接数据库.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/blog_test.sql" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/blog_test.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/index.html" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/server.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day3/demo/sql.utils.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/demo/sql.utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-web/src/main/resources/templates/webpack.config.js" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/templates/webpack.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -149,8 +110,8 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="165">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -159,8 +120,8 @@
       <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/bootstrap/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="96" />
+            <state relative-caret-position="462">
+              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -181,8 +142,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="616">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -190,21 +151,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js">
+      <file leaf-file-name="blog-home.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="-462">
+              <caret line="130" column="3" lean-forward="true" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="3" />
+              <folding>
+                <element signature="e#5861#6374#0" expanded="false" />
+                <element signature="e#6408#6900#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog-left-menu.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-left-menu.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="614">
+              <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog-home.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="39" column="3" lean-forward="false" selection-start-line="39" selection-start-column="3" selection-end-line="45" selection-end-column="7" />
+              <folding>
+                <element signature="e#1517#1588#0" expanded="false" />
+                <element signature="e#1605#1627#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1059">
+              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -216,9 +213,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="HTML File" />
         <option value="FxmlFile" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -231,6 +228,13 @@
       <find>plugins</find>
       <find>matched</find>
       <find>blog-left-menu</find>
+      <find>blog-home-logo.png</find>
+      <find>blog-nav</find>
+      <find>#blog-home &gt; #blog-nav &gt; .nave-body</find>
+      <find>blog-content</find>
+      <find>.html</find>
+      <find>blog-menu-true</find>
+      <find>handleClose</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -1177,12 +1181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/hello/node的使用.md" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/http/http.md" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/route.js" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/route/路由.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/gs" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/test.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/write.test.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day1/fs/read.test.js" />
@@ -1219,14 +1217,20 @@
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/elementUi/table.html" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/tt.html" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/bootstrap/nav.html" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json" />
-        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/webpack.config.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.manager.router.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog.home.vue" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/a.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/main.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/responser.contr.js" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/App.vue" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/css/iocn.svg" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/index.html" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/webpack.config.js" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-left-menu.html" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-left-menu.vue" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue" />
       </list>
     </option>
@@ -1327,6 +1331,16 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1339,17 +1353,6 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="blog-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1366,7 +1369,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -1380,21 +1383,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\component\images" />
       <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\css" />
       <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\study_test\bootstrap" />
       <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day3\async" />
       <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day1\http" />
-      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\node\day1\hello" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\component\images" />
+      <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\images" />
       <recent name="D:\study\blog\blog-web\src\main\resources\templates\src\lib" />
       <recent name="D:\study\blog\blog-web\src\main\resources\templates" />
       <recent name="D:\study\blog\blog-web\src\main\resources\template" />
-      <recent name="D:\study\blog\blog-web\src\main\resources\config" />
-      <recent name="D:\study\blog\blog-web\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1643,7 +1646,7 @@
       <workItem from="1517534258755" duration="62000" />
       <workItem from="1517535692414" duration="262000" />
       <workItem from="1517536086074" duration="2862000" />
-      <workItem from="1517538983436" duration="21421000" />
+      <workItem from="1517538983436" duration="47418000" />
     </task>
     <servers />
   </component>
@@ -1680,7 +1683,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136487000" />
+    <option name="totallyTimeSpent" value="162484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1713,8 +1716,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5005587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46368715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30916846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26703912" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27878466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1780,47 +1783,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/querystring.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/node/day2/param/path.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day2/param/testscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/node/day3/db/连接数据库.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="777">
-            <caret line="145" column="3" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="145" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/liang/peng/blog/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/jquery.v1.4.1.js" />
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2052,14 +2014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/node_modules/bootstrap/dist/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2086,33 +2040,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/bootstrap/nav.html">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/node_modules/jquery/src/css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="356" column="44" lean-forward="true" selection-start-line="356" selection-start-column="44" selection-end-line="356" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="96" />
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/lib/responser.contr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/css/iocn.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/study_test/bootstrap/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding>
-            <element signature="e#229#868#0" expanded="false" />
-            <element signature="e#881#988#0" expanded="false" />
-            <element signature="e#1003#1074#0" expanded="false" />
-            <element signature="e#1091#1113#0" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/images/blog-top-sreach.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/images/blog-top-return.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="165">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="39" column="3" lean-forward="false" selection-start-line="39" selection-start-column="3" selection-end-line="45" selection-end-column="7" />
+          <folding>
+            <element signature="e#1517#1588#0" expanded="false" />
+            <element signature="e#1605#1627#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1059">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -2125,29 +2145,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/main.js">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-left-menu.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/conf/blog.router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="614">
+          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/templates/src/component/blog-home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-462">
+          <caret line="130" column="3" lean-forward="true" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="3" />
+          <folding>
+            <element signature="e#5861#6374#0" expanded="false" />
+            <element signature="e#6408#6900#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
