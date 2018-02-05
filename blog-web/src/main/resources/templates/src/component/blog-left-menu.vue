@@ -45,7 +45,7 @@
         <img src="./images/user-def-head-portrait.png" alt="用户头像">
       </div>
       <div class="user-name">
-        <span>亮帅，你好！</span>
+        <span>帅哥，你好！</span>
         <i class="el-icon-caret-bottom" v-show="isOpenUserInfo"></i>
         <i class="el-icon-caret-top" v-show="!isOpenUserInfo"></i>
       </div>
