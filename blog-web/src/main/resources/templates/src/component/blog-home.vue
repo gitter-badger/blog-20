@@ -54,7 +54,7 @@
 
   #blog-home > #blog-nav {
     background: #393D49;
-    box-shadow: 0 1px 4px rgba(0,0,0,.3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
     width: 100%;
     height: 70px;
     position: fixed;
@@ -110,7 +110,7 @@
   }
 
   #blog-home .blog-left-menu {
-   /* background-color: rgb(84, 92, 100);*/
+    /* background-color: rgb(84, 92, 100);*/
     width: 268px;
     position: fixed;
     top: 70px;
@@ -122,7 +122,7 @@
   }
 
   #blog-home .blog-content {
-  /*  background: salmon;*/
+    /*  background: salmon;*/
     overflow: auto;
     position: absolute;
     top: 70px;
@@ -156,9 +156,35 @@
         </div>
 
         <div class="blog-nave-right">
-          <div><img width="24" src="./images/blog-top-more.png" alt="更多"></div>
-          <div><img width="24" src="./images/blog-top-config.png" alt="更多"></div>
-          <div><img width="24" src="./images/blog-top-sreach.png" alt="更多"></div>
+          <el-popover
+            ref="popover1"
+            placement="bottom"
+            width="200"
+            trigger="click">
+            <el-input placeholder="搜索" class="input-with-select">
+              <el-button slot="append" icon="el-icon-search"></el-button>
+            </el-input>
+          </el-popover>
+          <el-popover
+            ref="popover2"
+            placement="bottom"
+            width="100"
+            trigger="click">
+            <p>用户理系统</p>
+            <p>支付管理系统</p>
+            <p>权限管理系统</p>
+            <p>内容管理系统</p>
+          </el-popover>
+          <el-popover
+            ref="popover3"
+            placement="bottom"
+            width="200"
+            trigger="click">
+            敬请期待
+          </el-popover>
+          <div v-popover:popover3><img width="24" src="./images/blog-top-more.png" alt="更多"></div>
+          <div v-popover:popover2><img width="24" src="./images/blog-top-config.png" alt="更多"></div>
+          <div v-popover:popover1><img width="24" src="./images/blog-top-sreach.png" alt="搜索"></div>
         </div>
       </div>
     </div>

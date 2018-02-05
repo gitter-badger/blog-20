@@ -10,8 +10,8 @@
   }
 
   #blog-left-menu .blog-user-info > .user-head-portrait > img {
-    border: 3px solid rgba(0,0,0,.14);
-    width:60px;
+    border: 3px solid rgba(0, 0, 0, .14);
+    width: 60px;
     height: 60px;
     border-radius: 30px;
     margin: 15px 0px 21px 20px;
@@ -32,21 +32,47 @@
     white-space: nowrap;
     text-overflow: ellipsis;
   }
-  #blog-left-menu .blog-user-info > .user-name>i{
+
+  #blog-left-menu .blog-user-info > .user-name > i {
     position: relative;
     bottom: 5px;
   }
 </style>
 <template>
   <div id="blog-left-menu">
-    <div class="blog-user-info" @click="userInfo()">
+    <div class="blog-user-info" @click="isOpenUserInfo = !isOpenUserInfo;">
       <div class="user-head-portrait">
         <img src="./images/user-def-head-portrait.png" alt="用户头像">
       </div>
       <div class="user-name">
         <span>亮帅，你好！</span>
-        <i class="el-icon-caret-bottom"></i>
+        <i class="el-icon-caret-bottom" v-show="isOpenUserInfo"></i>
+        <i class="el-icon-caret-top" v-show="!isOpenUserInfo"></i>
       </div>
+    </div>
+    <div class="blog-user-menu" v-show="!isOpenUserInfo">
+      <el-menu
+        default-active="2"
+        class="el-menu-vertical-demo"
+        @open="handleOpen"
+        @close="handleClose">
+        <el-menu-item index="1">
+          <i class="el-icon-menu"></i>
+          <span slot="title">个人资料</span>
+        </el-menu-item>
+        <el-menu-item index="2">
+          <i class="el-icon-menu"></i>
+          <span slot="title">隐私设置</span>
+        </el-menu-item>
+        <el-menu-item index="3">
+          <i class="el-icon-menu"></i>
+          <span slot="title">系统设置</span>
+        </el-menu-item>
+        <el-menu-item index="4">
+          <i class="el-icon-menu"></i>
+          <span slot="title">推出登陆</span>
+        </el-menu-item>
+      </el-menu>
     </div>
     <el-menu
       default-active="2"
@@ -88,15 +114,17 @@
 <script>
   export default {
     name: 'blog-left-menu',
+    data() {
+      return {
+        isOpenUserInfo: true
+      }
+    },
     methods: {
       handleOpen(key, keyPath) {
         console.log(key, keyPath);
       },
       handleClose(key, keyPath) {
         console.log(key, keyPath);
-      },
-      userInfo:function () {
-
       }
     }
   }
