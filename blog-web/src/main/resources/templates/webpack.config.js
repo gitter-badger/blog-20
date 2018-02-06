@@ -1,6 +1,5 @@
 var path = require('path')
 var webpack = require('webpack')
-
 module.exports = {
   //入口文件
   entry: './src/main.js',
@@ -42,6 +41,13 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: 'images/[name].[ext]?[hash]'
+        }
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader',
+        options: {
+          name: 'data/[name].[ext]?[hash]'
         }
       }
       /*,

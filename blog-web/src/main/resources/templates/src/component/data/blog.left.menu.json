@@ -1,0 +1,39 @@
+[
+  {
+    "name": "我的博客",
+    "iocn":"el-icon-tickets",
+    "type":"submenu",
+    "child": [
+      {
+        "name": "CSS3",
+        "child": [
+          {
+            "group": "介绍"
+          }
+        ]
+      },
+      {
+        "name": "Bootstrap"
+      }
+    ]
+  },
+  {
+    "name": "xxx",
+    "iocn":"el-icon-tickets",
+    "type":"group",
+    "child": [
+      {
+        "name": "CSS3",
+        "child": [
+          {
+            "group": "介绍"
+          }
+        ]
+      },
+      {
+        "name": "Bootstrap"
+      }
+    ]
+  }
+]
+

@@ -1,18 +1,51 @@
 # blog
 
-> 个人学习
+> #### UI结构
 
-## Build Setup
+```
+├── blog-web 前台模块
 
-``` bash
-# install dependencies
-npm install
+├─── src/main/java 后台代码
 
-# serve with hot reload at localhost:8080
-npm run dev
+├─── src/main/resources/templates blog后台UI
 
-# build for production with minification
-npm run build
+├──── src 源码目录
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+> #### 修改左菜单
+
+修改 src/main/resources/templates/src/component/data/blog.left.menu.json
+```
+[
+  {
+    "name": "我的博客",
+    "iocn":"el-icon-location",
+    "type":"submenu",
+    "child": [
+      {
+        "name": "CSS3",
+        "child": [
+          {
+            "group": "介绍"
+          }
+        ]
+      },
+      {
+        "name": "Bootstrap"
+      }
+    ]
+  },
+ ....
+]
+```
+name ： 标题
+
+iocn ：图标
+
+type ：submenu(下拉展示)/group(分组展示)
+
+child ：子菜单 
+
+目前只有两级目录
+

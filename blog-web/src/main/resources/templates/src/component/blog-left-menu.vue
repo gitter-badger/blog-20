@@ -57,19 +57,19 @@
         @open="handleOpen"
         @close="handleClose">
         <el-menu-item index="1">
-          <i class="el-icon-menu"></i>
+          <i class="el-icon-setting"></i>
           <span slot="title">个人资料</span>
         </el-menu-item>
         <el-menu-item index="2">
-          <i class="el-icon-menu"></i>
+          <i class="el-icon-setting"></i>
           <span slot="title">隐私设置</span>
         </el-menu-item>
         <el-menu-item index="3">
-          <i class="el-icon-menu"></i>
+          <i class="el-icon-setting"></i>
           <span slot="title">系统设置</span>
         </el-menu-item>
         <el-menu-item index="4">
-          <i class="el-icon-menu"></i>
+          <i class="el-icon-setting"></i>
           <span slot="title">推出登陆</span>
         </el-menu-item>
       </el-menu>
@@ -82,41 +82,39 @@
       <!-- background-color="#545c64"
       text-color="#fff"
       active-text-color="#ffd04b"-->
-      <el-submenu index="1">
+      <el-submenu :index="menuIndexHandler(index)" :key="index" v-for="(item, index) in menuData">
+
         <template slot="title">
-          <i class="el-icon-location"></i>
-          <span>我的博客</span>
+          <i :class="item.iocn"></i>
+          <span>{{item.name}}</span>
         </template>
-        <el-menu-item-group>
-          <template slot="title">分组一</template>
-          <el-menu-item index="1-1">选项1</el-menu-item>
-          <el-menu-item index="1-2">选项2</el-menu-item>
-        </el-menu-item-group>
-        <el-menu-item-group title="分组2">
-          <el-menu-item index="1-3">选项3</el-menu-item>
-        </el-menu-item-group>
-        <el-submenu index="1-4">
-          <template slot="title">选项4</template>
-          <el-menu-item index="1-4-1">选项1</el-menu-item>
+
+
+        <el-submenu v-if="item.type === 'submenu'" index="1-4" v-for="(childItem, childIndex) in item.child">
+          <template slot="title">{{childItem.name}}</template>
+          <el-menu-item index="1-4-1">xxxx</el-menu-item>
         </el-submenu>
+
+        <el-menu-item-group v-else v-for="(childItem, childIndex) in item.child">
+          <template slot="title">{{childItem.name}}</template>
+          <el-menu-item index="1-1">选项1</el-menu-item>
+        </el-menu-item-group>
+
+
       </el-submenu>
-      <el-menu-item index="2">
-        <i class="el-icon-menu"></i>
-        <span slot="title">热门博客</span>
-      </el-menu-item>
-      <el-menu-item index="3">
-        <i class="el-icon-setting"></i>
-        <span slot="title">博客管理</span>
-      </el-menu-item>
+
     </el-menu>
   </div>
 </template>
 <script>
+  import menuData from './data/blog.left.menu.json'
+
   export default {
     name: 'blog-left-menu',
     data() {
       return {
-        isOpenUserInfo: true
+        isOpenUserInfo: true,
+        menuData
       }
     },
     methods: {
@@ -125,6 +123,9 @@
       },
       handleClose(key, keyPath) {
         console.log(key, keyPath);
+      },
+      menuIndexHandler(index) {
+        return String(index + 1);
       }
     }
   }

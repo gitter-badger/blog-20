@@ -110,7 +110,8 @@
   }
 
   #blog-home .blog-left-menu {
-    /* background-color: rgb(84, 92, 100);*/
+     /*background-color: rgb(84, 92, 100);*/
+    background-color: white;
     width: 268px;
     position: fixed;
     top: 70px;
@@ -234,11 +235,12 @@
       window.onresize = function () {
         var menu = _this.menu;
         var browserWidth = $(window).width() || $(document.body).width() || document.body.clientWidth;
+        console.log("size",browserWidth)
         if (browserWidth >= 1200) {
           $('#blog-home>.blog-left-menu').show();
           return;
         }
-        if (browserWidth < 1200) {
+        if (browserWidth < 1100) {
           if (menu.isClick === false) {
             $('#blog-home>.blog-left-menu').hide();
           }
