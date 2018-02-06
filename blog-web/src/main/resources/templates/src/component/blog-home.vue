@@ -183,9 +183,9 @@
             trigger="click">
             敬请期待
           </el-popover>
-          <div v-popover:popover3><img width="24" src="./images/blog-top-more.png" alt="更多"></div>
-          <div v-popover:popover2><img width="24" src="./images/blog-top-config.png" alt="更多"></div>
-          <div v-popover:popover1><img width="24" src="./images/blog-top-sreach.png" alt="搜索"></div>
+          <div class="blog-top-more" v-popover:popover3 ><img width="24" src="./images/blog-top-more.png" alt="更多"></div>
+          <div class="blog-top-config" v-popover:popover2 ><img width="24" src="./images/blog-top-config.png" alt="更多"></div>
+          <div  class="blog-top-sreach" v-popover:popover1><img width="24" src="./images/blog-top-sreach.png" alt="搜索"></div>
         </div>
       </div>
     </div>
@@ -230,9 +230,15 @@
         }
       }
     }
+    , mounted() {
+      waves.attach('#blog-nav  .blog-menu-button', 'waves-light');
+      waves.attach('#blog-nav  .blog-top-more', 'waves-light');
+      waves.attach('#blog-nav  .blog-top-config', 'waves-light');
+      waves.attach('#blog-nav  .blog-top-sreach', 'waves-light');
+    }
     , created: function () {
       var _this = this;
-      window.onresize = function () {
+      $(window).resize(function () {
         var menu = _this.menu;
         var browserWidth = $(window).width() || $(document.body).width() || document.body.clientWidth;
         console.log("size", browserWidth)
@@ -246,7 +252,7 @@
           }
           return;
         }
-      }
+      })
     }
     , components: {
       blogLeftMenu,

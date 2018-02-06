@@ -437,9 +437,9 @@
           }
         ]
       });
-      window.onresize = function () {
+      $(window).resize(function () {
         demo.resize()
-      }
+      });
       $(demoChartsElem).css("width", "100%");
     },
     methods: {

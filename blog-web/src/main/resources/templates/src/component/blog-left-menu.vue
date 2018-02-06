@@ -42,14 +42,14 @@
 <template>
   <div id="blog-left-menu">
     <div class="blog-user-info" @click="isOpenUserInfo = !isOpenUserInfo;">
-        <div class="user-head-portrait">
-          <img src="./images/user-def-head-portrait.png" alt="用户头像">
-        </div>
-        <div class="user-name">
-          <span>帅哥，你好！</span>
-          <i class="el-icon-caret-bottom" v-show="isOpenUserInfo"></i>
-          <i class="el-icon-caret-top" v-show="!isOpenUserInfo"></i>
-        </div>
+      <div class="user-head-portrait">
+        <img src="./images/user-def-head-portrait.png" alt="用户头像">
+      </div>
+      <div class="user-name">
+        <span>帅哥，你好！</span>
+        <i class="el-icon-caret-bottom" v-show="isOpenUserInfo"></i>
+        <i class="el-icon-caret-top" v-show="!isOpenUserInfo"></i>
+      </div>
     </div>
     <div class="blog-user-menu" v-show="!isOpenUserInfo">
       <el-menu
@@ -91,12 +91,12 @@
         </template>
 
 
-        <el-submenu v-if="item.type === 'submenu'" index="1-4"  v-for="(childItem, cIndex) in item.child">
+        <el-submenu v-if="item.type === 'submenu'" index="1-4" v-for="(childItem, cIndex) in item.child">
           <template slot="title">{{childItem.name}}</template>
           <el-menu-item index="1-4-1">xxxx</el-menu-item>
         </el-submenu>
 
-        <el-menu-item-group v-else  v-for="(childItem, cIndex) in item.child">
+        <el-menu-item-group v-else v-for="(childItem, cIndex) in item.child">
           <template slot="title">{{childItem.name}}</template>
           <el-menu-item index="1-1">选项1</el-menu-item>
         </el-menu-item-group>
@@ -117,6 +117,9 @@
         isOpenUserInfo: true,
         menuData
       }
+    },
+    mounted() {
+      waves.attach('#blog-left-menu > .blog-user-info', 'waves-light');
     },
     methods: {
       handleOpen(key, keyPath) {

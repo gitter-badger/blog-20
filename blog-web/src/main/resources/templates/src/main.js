@@ -28,4 +28,3 @@ new Vue({
   render: h => h(App),
   router
 });
-waves.attach('#blog-left-menu > .blog-user-info', 'waves-light');
