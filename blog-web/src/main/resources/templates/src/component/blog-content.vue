@@ -15,13 +15,14 @@
 </template>
 <script>
   import blogHomeContent from './blog-home-content.vue'
+
   export default {
     name: 'blog-content',
     data() {
       return {};
     },
     methods: {},
-    components:{
+    components: {
       blogHomeContent
     }
   };

@@ -452,7 +452,6 @@
       shortcut: function () {
         $(event.currentTarget).parent().children().removeClass('blog-carousel-this');
         $(event.currentTarget).addClass('blog-carousel-this');
-
       }
     }
   }

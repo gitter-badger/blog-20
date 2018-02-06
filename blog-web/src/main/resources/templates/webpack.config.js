@@ -92,6 +92,9 @@ module.exports = {
     jquery: "jquery",
     "window.jQuery": "jquery",
     jQuery: "jquery"
+  }),new webpack.ProvidePlugin({
+    waves: "node-waves/dist/waves.min",
+    "window.waves": "node-waves/dist/waves.min"
   })],
   devtool: '#eval-source-map'
 }
