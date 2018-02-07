@@ -355,7 +355,7 @@
               <el-col class="blog-card ">
                 <div class="content" style="width: 100%">
                   <p> 当前UI整体布局是参考其他UI编写，主要目的用于学习和使用前台工具</p>
-
+                  <p id="dev-info"></p>
                 </div>
               </el-col>
             </el-row>
@@ -397,6 +397,15 @@
       }
     },
     mounted: function () {
+      var isMobile = device.mobile(), isTable = device.tablet();
+      var systemName = device.os;
+      if (isMobile) {
+        $('#dev-info').html("您正在使用手机浏览." + systemName);
+      } else if (isTable) {
+        $('#dev-info').html("您正在使用平板浏览." + systemName);
+      } else {
+        $('#dev-info').html("您正在使用PC浏览." + systemName);
+      }
       var demoChartsElem = document.getElementById("demo-charts");
       var demo = echarts.init(demoChartsElem);
       demo.setOption({
