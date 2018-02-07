@@ -17,6 +17,7 @@
     "echarts": "^4.0.2",
     "element-ui": "^2.1.0",
     "jquery": "^3.3.1",
+    "jquery-mousewheel": "^3.1.13",
     "node-waves": "^0.7.6",
     "vue": "^2.5.11",
     "vue-fullpage": "^2.0.5",

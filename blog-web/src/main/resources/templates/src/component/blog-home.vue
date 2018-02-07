@@ -110,14 +110,15 @@
   }
 
   #blog-home .blog-left-menu {
-    /*background-color: rgb(84, 92, 100);*/
+    /*background-color: rgb(84, 92, 100);
+     overflow-y: auto;
+    */
     background-color: white;
     width: 268px;
     position: fixed;
     top: 70px;
     transition: all;
     z-index: 9;
-    overflow-y: auto;
     height: calc(100% - 90px);
     box-shadow: 1px 0 4px rgba(0, 0, 0, .3);
   }
@@ -190,7 +191,7 @@
       </div>
     </div>
 
-    <div class="blog-left-menu">
+    <div class="blog-left-menu" style="overflow: visible;">
       <blog-left-menu></blog-left-menu>
     </div>
 
@@ -231,6 +232,22 @@
       }
     }
     , mounted() {
+   /*   $('#blog-home .blog-left-menu').mCustomScrollbar({
+        theme:"dark",
+        axis:'y',
+        //设置是否自动隐藏滚动条
+        autoHideScrollbar:true,
+        mouseWheel:{ preventDefault:true }
+      });*/
+      $("#blog-home .blog-left-menu").mCustomScrollbar({
+        /*setHeight:300,*/
+       /* setWidth:"100%",*/
+        scrollbarPosition:"outside",
+        scrollTo:'last',
+        advanced:{ autoExpandHorizontalScroll:true },
+        autoHideScrollbar:true,
+        theme:"dark"
+      });
       waves.attach('#blog-nav  .blog-menu-button', 'waves-light');
       waves.attach('#blog-nav  .blog-top-more', 'waves-light');
       waves.attach('#blog-nav  .blog-top-config', 'waves-light');
