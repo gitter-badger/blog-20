@@ -17,12 +17,11 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        /*    use: [
-              'vue-style-loader',
-              'css-loader'
-            ],*/
+        // use:['style-loader','css-loader','less-loader']
         loader: 'style-loader!css-loader'
-
+      }, {
+        test: /\.less/,
+        loader: 'style-loader!css-loader!less-loader'
       }, {
         test: /\.vue$/,
         loader: 'vue-loader',
@@ -92,7 +91,7 @@ module.exports = {
     jquery: "jquery",
     "window.jQuery": "jquery",
     jQuery: "jquery"
-  }),new webpack.ProvidePlugin({
+  }), new webpack.ProvidePlugin({
     waves: "node-waves/dist/waves.min",
     "window.waves": "node-waves/dist/waves.min"
   })],

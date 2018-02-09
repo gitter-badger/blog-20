@@ -1,85 +1,62 @@
-<style lang="css">
+<style lang="less">
   #blog-home-content {
     font-size: 16px;
-  }
+    div.title {
+      border: 1px solid #f6f6f6;
+      padding: 10px;
+      color: #333;
+    }
 
-  #blog-home-content div.title {
-    border: 1px solid #f6f6f6;
-    padding: 10px;
-    color: #333;
-  }
+    .blog-block-card {
+      margin-bottom: 10px;
+    }
 
-  #blog-home-content .blog-block-card {
-    margin-bottom: 10px;
-  }
+    div.content {
+      padding: 10px;
+      .blog-card {
+        margin-bottom: 5px;
+      }
 
-  #blog-home-content div.content {
-    padding: 10px;
-  }
+      .blog-data-browse > div.content {
+        background-color: #F8F8F8;
+      }
 
-  #blog-home-content div.content .blog-card {
-    margin-bottom: 5px;
-  }
+      .blog-ui-jd > div.content {
+        height: 300px;
+        overflow: auto;
+      }
 
-  #blog-home-content div.content .blog-data-browse > div.content {
-    background-color: #F8F8F8;
-  }
+      .blog-card .blog-block {
+        background-color: #F8F8F8;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        height: 80px;
+      }
 
-  #blog-home-content div.content .blog-ui-jd > div.content {
-    height: 300px;
-    overflow: auto;
-  }
+      .pending-event {
+        background-color: #F8F8F8;
+        border-radius: 5px;
+        padding: 10px;
+        height: 80px;
+      }
 
-  #blog-home-content div.content .blog-card .blog-block {
-    background-color: #F8F8F8;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-    height: 80px;
+      .pending-event {
+        > div {
+          color: #999;
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
+        > span {
+          font-size: 26px;
+          color: #009688;
+        }
+      }
+      .version-info {
+        height: 168px;
+      }
+    }
   }
-
-  #blog-home-content div.content .pending-event {
-    background-color: #F8F8F8;
-    border-radius: 5px;
-    padding: 10px;
-    height: 80px;
-  }
-
-  #blog-home-content div.content .pending-event > div {
-    color: #999;
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-
-  #blog-home-content div.content .pending-event > span {
-    font-size: 26px;
-    color: #009688;
-  }
-
-  #blog-home-content div.content .version-info {
-    height: 168px;
-  }
-
-  #blog-home-content ul.blog-carousel {
-    display: inline-block;
-    padding: 0px;
-    margin: 2px 0px 0px 0px;
-  }
-
-  #blog-home-content ul.blog-carousel > li {
-    width: 10px;
-    height: 10px;
-    background-color: #e2e2e2;
-    border-radius: 5px;
-    float: left;
-    margin: 0px 5px 0px 5px;
-    cursor: pointer;
-  }
-
-  #blog-home-content ul.blog-carousel .blog-carousel-this {
-    background-color: #b3b3b3;
-  }
-
 </style>
 
 <template>
@@ -89,12 +66,12 @@
         <el-card :body-style="{ padding: '0px' }">
           <div class="title">
             <span>快捷方式</span>
-            <ul class="blog-carousel pull-right">
-              <li @click="shortcut()" index="1" class="blog-carousel-this"></li>
-              <li @click="shortcut()" index="2"></li>
+            <ul class="blog-carousel pull-right" v-blog-carousel>
+              <li class="blog-carousel-this"  carousel-index></li>
+              <li  carousel-index></li>
             </ul>
           </div>
-          <div class="content">
+          <div class="content carousel-inner">
             <el-row :gutter="5">
               <el-col class="blog-card" :xl="6" :lg="6" :md="6" :sm="6" :xs="6" v-for="i in 8">
                 <div class="blog-block">
@@ -108,24 +85,30 @@
       </el-col>
 
       <el-col class="blog-block-card" :xl="8" :lg="8" :md="12">
-        <el-card :body-style="{ padding: '0px' }">
+        <el-card :body-style="{ padding: '0px' }" v-blog-carousel>
           <div class="title">
             <span>待办事件</span>
             <ul class="blog-carousel pull-right">
-              <li class="blog-carousel-this"></li>
-              <li></li>
+              <li class="blog-carousel-this" carousel-index="1"></li>
+              <li carousel-index="2"></li>
             </ul>
           </div>
-          <div class="content">
-            <el-row :gutter="5">
-              <el-col class="blog-card" :xl="12" :lg="12" :md="12" :sm="12" :xs="12" v-for="i in 4">
-                <div class="pending-event">
-                  <div>待审评论</div>
-                  <span>66</span>
-                </div>
-              </el-col>
-            </el-row>
+          <div class="content" blog-carousel-body>
+            <div carousel-index="1">
+              <el-row :gutter="5">
+                <el-col class="blog-card" :xl="12" :lg="12" :md="12" :sm="12" :xs="12" v-for="i in 4">
+                  <div class="pending-event">
+                    <div>待审评论</div>
+                    <span>66</span>
+                  </div>
+                </el-col>
+              </el-row>
+            </div>
+            <div carousel-index="2">
+              222
+            </div>
           </div>
+
         </el-card>
       </el-col>
 
@@ -369,7 +352,7 @@
 <script>
 
   export default {
-    name: 'blog-home-content',
+    name: 'blog-home-body',
     data() {
       return {
         activeName: 'first',
@@ -397,6 +380,10 @@
       }
     },
     mounted: function () {
+
+      $("#blog-home-content .content").mCustomScrollbar({
+        theme: "minimal-dark"
+      });
       var isMobile = device.mobile(), isTable = device.tablet();
       var systemName = device.os;
       if (isMobile) {
@@ -457,10 +444,6 @@
       },
       indexMethod(index) {
         return index + 1;
-      },
-      shortcut: function () {
-        $(event.currentTarget).parent().children().removeClass('blog-carousel-this');
-        $(event.currentTarget).addClass('blog-carousel-this');
       }
     }
   }

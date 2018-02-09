@@ -8,14 +8,13 @@
     <el-tabs type="border-card" style="border: none;">
       <el-tab-pane>
         <span slot="label"><!--<i class="el-icon-date"></i>--> 首页</span>
-        <blog-home-content></blog-home-content>
+       <blog-content-body></blog-content-body>
       </el-tab-pane>
     </el-tabs>
   </div>
 </template>
 <script>
-  import blogHomeContent from './blog-home-content.vue'
-
+  import blogContentBody from './blog-content-body.vue'
   export default {
     name: 'blog-content',
     data() {
@@ -23,7 +22,7 @@
     },
     methods: {},
     components: {
-      blogHomeContent
+      blogContentBody
     }
   };
 </script>

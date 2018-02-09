@@ -1,43 +1,41 @@
-<style lang="css">
-  #blog-left-menu .el-menu {
-    border: none;
+<style lang="less">
+  #blog-left-menu {
+    .el-menu {
+      border: none;
+    }
+    .blog-user-info {
+      width: 100%;
+      height: 130px;
+      cursor: pointer;
+      background: url("./images/user-info-bj.png");
+      > .user-head-portrait > img {
+        border: 3px solid rgba(0, 0, 0, .14);
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        margin: 15px 0px 21px 20px;
+      }
+      > .user-name {
+        background: rgba(0, 0, 0, .37);
+        height: 32px;
+        color: white;
+        font-size: 13px;
+        padding: 8px 0px 0px 10px;
+        > span {
+          display: inline-block;
+          width: 233px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+        > i {
+          position: relative;
+          bottom: 5px;
+        }
+      }
+    }
   }
 
-  #blog-left-menu .blog-user-info {
-    width: 100%;
-    height: 130px;
-    cursor: pointer;
-    background: url("./images/user-info-bj.png");
-  }
-
-  #blog-left-menu .blog-user-info > .user-head-portrait > img {
-    border: 3px solid rgba(0, 0, 0, .14);
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    margin: 15px 0px 21px 20px;
-  }
-
-  #blog-left-menu .blog-user-info > .user-name {
-    background: rgba(0, 0, 0, .37);
-    height: 32px;
-    color: white;
-    font-size: 13px;
-    padding: 8px 0px 0px 10px;
-  }
-
-  #blog-left-menu .blog-user-info > .user-name > span {
-    display: inline-block;
-    width: 233px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-
-  #blog-left-menu .blog-user-info > .user-name > i {
-    position: relative;
-    bottom: 5px;
-  }
 </style>
 <template>
   <div id="blog-left-menu">
