@@ -1,4 +1,7 @@
+.gradle
 .idea
+.idea/*
+*.iml
 build
 blog-bean/build
 blog-bean/out
@@ -9,5 +12,13 @@ blog-server/out
 blog-web/build
 blog-web/out
 blog-web/src/main/resources/templates/node_modules
+blog-bean/.gradle
+blog-bean/.gradle
+blog-commons/.gradle
+blog-commons/.gradle
+blog-server/.gradle
+blog-server/.gradle
+blog-web/.gradle
+blog-web/.gradle
 
 

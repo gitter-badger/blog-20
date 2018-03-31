@@ -8,8 +8,22 @@
 
 * Spring Boot :fa-leaf:
 
+* Swagger2
+
 > #### :fa-bookmark:  前台
+
+* ES6
 
 * node
 
-* Vue
+* vue,vue-router,vue-cli
+
+* webpack,webpack-dev-server
+
+* element-ui
+
+* echarts
+
+* waves : 一款很棒的交换点击动画
+
+* jQuery
