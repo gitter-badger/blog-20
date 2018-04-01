@@ -2,11 +2,13 @@ package com.blog.beans;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author liangpeng
  */
 @Data
-public class BlogUserBeans {
+public class BlogUserBeans implements Serializable{
 
     private int id;
     private String userName;

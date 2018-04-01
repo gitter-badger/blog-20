@@ -15,8 +15,7 @@ dependencies {
     compile group: 'io.springfox', name: 'springfox-swagger2', version: swagger2Version
     compile group: 'io.springfox', name: 'springfox-swagger-ui', version: swagger2Version
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version:springBootVersion
-    compile group: 'org.projectlombok', name: 'lombok', version: '1.16.20'
     compile group: 'com.alibaba', name: 'druid', version: '1.1.9'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: springBootVersion
+    //compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: springBootVersion
     testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: springBootVersion
 }

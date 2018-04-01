@@ -5,4 +5,8 @@
     <select id="login" resultType="com.blog.beans.BlogUserBeans" parameterType="java.lang.String">
       SELECT id,user_name as userName,password FROM blog_user WHERE user_name =#{userName} AND password = #{password}
     </select>
+
+    <select id="findUserInfo" resultType="com.blog.beans.BlogUserBeans">
+        SELECT id,user_name as userName,password FROM blog_user
+    </select>
 </mapper>

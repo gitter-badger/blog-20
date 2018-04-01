@@ -3,6 +3,8 @@ package com.blog.mapper;
 import com.blog.beans.BlogUserBeans;
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 /**
  * @author liangpeng
  */
@@ -16,4 +18,5 @@ public interface UserMapper {
      */
     BlogUserBeans login(BlogUserBeans blogUser);
 
+    List<BlogUserBeans> findUserInfo();
 }

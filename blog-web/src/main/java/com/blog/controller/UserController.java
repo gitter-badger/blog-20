@@ -12,6 +12,7 @@ import springfox.documentation.annotations.ApiIgnore;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 /**
  * @author liangpeng
@@ -60,5 +61,10 @@ public class UserController {
         return user;
     }
 
+    @ApiOperation("获取所用用户信息")
+    @RequestMapping("/info")
+    public List<BlogUserBeans> getUserInfo(){
+       return userService.findUserInfoAll();
+    }
 
 }
