@@ -1,14 +1,16 @@
 package com.blog.beans;
 
+import lombok.Data;
+
 /**
  * @author liangpeng
  */
+@Data
 public class BlogUserBeans {
 
     private int id;
     private String userName;
-    private String pwd;
-    private String iphone;
+    private String password;
 
     public int getId() {
         return id;
@@ -26,19 +28,11 @@ public class BlogUserBeans {
         this.userName = userName;
     }
 
-    public String getPwd() {
-        return pwd;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
-    }
-
-    public String getIphone() {
-        return iphone;
-    }
-
-    public void setIphone(String iphone) {
-        this.iphone = iphone;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

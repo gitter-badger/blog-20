@@ -24,4 +24,16 @@ public class Test1Controller {
         session.setAttribute("txt3","HttpSession");
         return "index";
     }
+
+    @RequestMapping("/error")
+    public String error() throws Exception {
+
+        throw new Exception("exception");
+    }
+
+    @RequestMapping("/login")
+    public String login() throws Exception {
+
+        return  "login";
+    }
 }

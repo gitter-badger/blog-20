@@ -6,8 +6,12 @@ import com.blog.beans.BlogUserBeans;
 import com.blog.service.UserService;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import springfox.documentation.annotations.ApiIgnore;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 /**
  * @author liangpeng
@@ -55,4 +59,6 @@ public class UserController {
     public User insertUser( User user) {
         return user;
     }
+
+
 }

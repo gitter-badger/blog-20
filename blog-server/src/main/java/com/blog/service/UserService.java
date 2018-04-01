@@ -9,4 +9,6 @@ public interface UserService {
 
     BlogUserBeans login(String userName, String password);
 
+
+    int insertBlogUserMaster(BlogUserBeans blogUserBeans);
 }

@@ -3,6 +3,6 @@
 <mapper namespace="com.blog.mapper.UserMapper">
 
     <select id="login" resultType="com.blog.beans.BlogUserBeans" parameterType="java.lang.String">
-      SELECT * FROM blog_user WHERE user_name =#{userName} AND pwd = #{pwd}
+      SELECT id,user_name as userName,password FROM blog_user WHERE user_name =#{userName} AND password = #{password}
     </select>
 </mapper>

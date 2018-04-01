@@ -18,7 +18,12 @@ public class UserServiceImpl implements UserService {
     public BlogUserBeans login(String userName, String password) {
         BlogUserBeans blogUser = new BlogUserBeans();
         blogUser.setUserName(userName);
-        blogUser.setPwd(password);
+        blogUser.setPassword(password);
         return userMapper.login(blogUser);
+    }
+
+    @Override
+    public int insertBlogUserMaster(BlogUserBeans blogUserBeans) {
+        return 0;
     }
 }
