@@ -6,7 +6,8 @@ ext {
 apply plugin: 'war'
 
 dependencies {
-    compile project(':blog-server')
+    //compile project(':blog-server')
+    compile project(':blog-bean')
     //compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: springBootVersion
     //compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: springBootVersion
@@ -15,7 +16,9 @@ dependencies {
     compile group: 'io.springfox', name: 'springfox-swagger2', version: swagger2Version
     compile group: 'io.springfox', name: 'springfox-swagger-ui', version: swagger2Version
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version:springBootVersion
-    compile group: 'com.alibaba', name: 'druid', version: '1.1.9'
+    //compile group: 'com.alibaba', name: 'druid', version: '1.1.9'
     //compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: springBootVersion
+    //compile group: 'com.alibaba', name: 'dubbo', version: '2.6.1'
+
     testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: springBootVersion
 }

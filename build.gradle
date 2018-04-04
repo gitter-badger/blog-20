@@ -1,6 +1,8 @@
 allprojects {
     apply plugin: 'java'
+    //打包编译版本
     sourceCompatibility = 1.8
+    //解决打包编码问题
     [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
     repositories {
@@ -10,9 +12,6 @@ allprojects {
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
         //使用默认远程仓库也就是中央仓库
         mavenCentral()
-    }
-
-    dependencies {
     }
 
 }

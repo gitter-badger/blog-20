@@ -2,14 +2,14 @@ package com.blog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @author liangpeng
  */
+@EnableEurekaServer
 @SpringBootApplication
-@EnableCaching//开启缓存
-public class SprintBootApplication {
+public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
