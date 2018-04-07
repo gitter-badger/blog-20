@@ -1,5 +1,5 @@
 > ## blog-server
 
-这里使用spring cloud eureka对外发布服务
+eureka 注册中心
 
 

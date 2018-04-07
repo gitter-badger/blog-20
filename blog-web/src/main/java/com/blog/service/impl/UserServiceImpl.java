@@ -1,3 +1,4 @@
+/*
 package com.blog.service.impl;
 
 import com.blog.beans.BlogUserBeans;
@@ -10,9 +11,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+*/
 /**
  * @author liangpeng
- */
+ *//*
+
 @Service
 public class UserServiceImpl implements UserService {
     @Autowired
@@ -26,10 +29,12 @@ public class UserServiceImpl implements UserService {
         return userMapper.login(blogUser);
     }
 
-    /**
+    */
+/**
      * reids测试
      * @return
-     */
+     *//*
+
     @Cacheable(value = "userList")
     @Override
     public List<BlogUserBeans> findUserInfoAll() {
@@ -39,3 +44,4 @@ public class UserServiceImpl implements UserService {
 
 
 }
+*/
