@@ -29,3 +29,12 @@
 * waves : 一款很棒的交换点击动画
 
 * jQuery
+
+---
+
+blog-server : eureka注册中心
+
+blog-user-server ： 服务
+
+blog-web ： 服务
+
