@@ -11,7 +11,6 @@ blog-server/build
 blog-server/out
 blog-web/build
 blog-web/out
-blog-web/src/main/resources/templates/node_modules
 blog-bean/.gradle
 blog-bean/.gradle
 blog-commons/.gradle
@@ -20,5 +19,8 @@ blog-server/.gradle
 blog-server/.gradle
 blog-web/.gradle
 blog-web/.gradle
+blog-ui/node_modules
+blog-user-server/build
+blog-user-server/out
 
 
