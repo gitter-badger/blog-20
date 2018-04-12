@@ -22,5 +22,11 @@ blog-web/.gradle
 blog-ui/node_modules
 blog-user-server/build
 blog-user-server/out
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
 

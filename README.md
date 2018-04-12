@@ -1,8 +1,8 @@
-###  :fa-book:  个人学习Demo
+###  个人学习Demo
 
 ---
 
-> #### :fa-bookmark: 后台技术
+> ####  后台技术
 
 * Gradl构建
 
@@ -12,7 +12,7 @@
 
 * Swagger2
 
-> #### :fa-bookmark:  前台
+> ####   前台
 
 * ES6
 
