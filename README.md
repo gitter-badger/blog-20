@@ -6,7 +6,7 @@
 
 * Gradl构建
 
-* Spring Boot :fa-leaf:
+* Spring Boot
 
 * Spring Cloud 
 
