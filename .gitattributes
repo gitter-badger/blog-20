@@ -2,3 +2,4 @@
 *.js linguist-language=javaScript;
 *.vue linguist-language=vue;
 *.html linguist-language=html;
+*.java linguist-language=java;
