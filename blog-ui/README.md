@@ -3,49 +3,22 @@
 > #### UI结构
 
 ```
-├── blog-web 前台模块
+├── src 源码
 
-├─── src/main/java 后台代码
+├────	component 组件模块
 
-├─── src/main/resources/templates blog后台UI
+├──── conf 配置文件
 
-├──── src 源码目录
+├──── css 样式
+
+├──── lib 开发依赖库
+
+├──────── plugins 不支持node安装的一些依赖插件
+
+├──── study_test 一些web技术的使用，测试小demo
+
+├──── App.vue/main.js 主文件入口
+
 ```
 
-
-> #### 修改左菜单
-
-修改 src/main/resources/templates/src/component/data/blog.left.menu.json
-```
-[
-  {
-    "name": "我的博客",
-    "iocn":"el-icon-location",
-    "type":"submenu",
-    "child": [
-      {
-        "name": "CSS3",
-        "child": [
-          {
-            "group": "介绍"
-          }
-        ]
-      },
-      {
-        "name": "Bootstrap"
-      }
-    ]
-  },
- ....
-]
-```
-name ： 标题
-
-iocn ：图标
-
-type ：submenu(下拉展示)/group(分组展示)
-
-child ：子菜单 
-
-目前只有两级目录
 
