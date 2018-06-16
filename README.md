@@ -1,5 +1,7 @@
 ###  个人学习Demo
 
+[![Join the chat at https://gitter.im/pengliang-blog/Lobby](https://badges.gitter.im/pengliang-blog/Lobby.svg)](https://gitter.im/pengliang-blog/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ---
 
 > ####  后台技术
